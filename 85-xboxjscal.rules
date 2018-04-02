@@ -1,0 +1,1 @@
+SUBSYSTEM=="input", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0719", ACTION=="add", RUN+="/usr/bin/xboxjscal.sh"
